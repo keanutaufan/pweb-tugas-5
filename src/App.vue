@@ -75,9 +75,19 @@
   }
 
   input {
-    height: 2rem;
+    height: 2.4rem;
     font-size: 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid gray;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 4px 10px;
+  }
 
+  input:focus {
+    border: 2px solid #327959;
+    transition: all 500ms ease;
   }
 
   .buttons {
@@ -87,6 +97,14 @@
     gap: 16px;
   }
 
+  button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+  }
   .result {
     text-align: center;
   }
